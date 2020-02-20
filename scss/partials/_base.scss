@@ -1,0 +1,26 @@
+// base styles
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+nav {
+    font-size: 2vw;
+    text-align: right;
+    background-color: black;
+    
+    ul {
+        margin: 0;
+    }
+ 
+    li {
+        display: inline;
+        padding: 3vw;
+    }
+ 
+    a {
+        text-decoration: none;
+        color: azure;
+    }
+ }

@@ -1,0 +1,55 @@
+//============================ About Section ===============================
+#about {
+    height: 60vh;
+    width: 100%;
+    background-color: teal;
+}
+
+.about-me {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
+    width: 50%;
+    margin: auto;
+}
+
+// ===========================  Resume Section ==============================
+
+#resume {
+    height:50vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3%;
+    margin: auto;   
+
+    h3 {
+        text-align: center;
+    }
+}
+
+.border {
+    width: 80%;
+    margin: auto;
+}
+// ======================== My Project S3ection ======================
+
+#projects {
+    height: 55vh;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+// ========================= My Contact section =======================
+#contact {
+    height:50vh;
+    width: 100%;
+    background-color: rgb(56, 166, 199);
+}
